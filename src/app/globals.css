@@ -3,31 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: 0 0% 98%;
+  --foreground: 245 10% 22%;
+  --primary: 167 36% 54%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 205 41% 21%;
+  --secondary-foreground: 0 0% 100%;
+  --destructive: 0 90% 57%;
+  --destructive-foreground: 0 0% 100%;
+  --muted: 200 11% 84%;
+  --muted-foreground: 245 10% 22%;
+
+  --input: 240 2% 92%;
+  --border: 270 3% 88%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  html {
+    @apply min-h-full min-w-[20rem] scroll-smooth;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  body {
+    @apply min-h-full overflow-x-hidden bg-background font-sans text-base leading-[1.875rem] text-foreground selection:bg-primary selection:text-primary-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .main-container {
+    @apply mx-auto box-content max-w-[69.375rem] px-8 sm:px-10;
+  }
+  .main-grid {
+    @apply grid sm:grid-cols-12 sm:gap-x-2.5 lg:gap-x-[1.875rem] [&>*]:col-span-full;
+  }
+  .heading-1 {
+    @apply font-serif text-5xl font-bold -tracking-[0.009em] lg:text-[3.125rem] lg:leading-none;
+  }
+  .heading-2 {
+    @apply font-serif text-5xl font-bold -tracking-[0.009em];
+  }
+  .heading-3 {
+    @apply font-serif text-3xl font-normal -tracking-[0.009em];
+  }
+  .label {
+    @apply text-[0.8125rem] font-bold leading-[1.875rem];
+  }
+  .label-upper {
+    @apply text-xs font-normal uppercase leading-[0.875rem] tracking-[0.125rem];
   }
 }
+
+
