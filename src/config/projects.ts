@@ -1,3 +1,4 @@
+import type { StaticImageData } from 'next/image';
 import ProfileImg from "../../images/detail/gmh.jpeg"
 import BookmarkHero from "../../images/portfolio/gmh.png"
 import PreviewA from "../../images/detail/gmha.jpeg"
@@ -24,10 +25,10 @@ export type ProjectType = {
   tags: string[];
   link: string;
   slug: string;
-  coverImage: unknown;
+  coverImage: string | StaticImageData;
   staticImages: {
-    hero: unknown;
-    previews: unknown[];
+    hero: string | StaticImageData;
+    previews: string | StaticImageData[];
   };
   background: string;
 };
