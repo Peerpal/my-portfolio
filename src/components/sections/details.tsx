@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import type { StaticImageData } from 'next/image';
 import { ProjectType } from '@/config/projects';
 import { shimmer, toBase64 } from '@/lib/utils';
 
@@ -55,7 +55,7 @@ const DetailsSection = ({ project, previus, next }: DetailsProps) => {
         <div className="mb-16 mt-10 space-y-10 sm:mb-20 lg:col-start-6 lg:col-end-13 lg:mb-16 lg:space-y-7">
           <h2 className="heading-3">Static Previews</h2>
           <div className="grid auto-rows-[12.3125rem] gap-y-8 sm:auto-rows-[27.125rem]">
-            {project.staticImages.previews.map((preview, index) => (
+            {(project.staticImages.previews as StaticImageData[]).map((preview, index) => (
               <div className="relative h-full w-full" key={index}>
                 <Image
                   src={preview}
