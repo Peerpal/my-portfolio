@@ -28,7 +28,7 @@ export type ProjectType = {
   coverImage: string | StaticImageData;
   staticImages: {
     hero: string | StaticImageData;
-    previews: string | StaticImageData[];
+    previews: StaticImageData[];
   };
   background: string;
 };
