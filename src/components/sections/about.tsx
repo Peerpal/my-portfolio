@@ -23,14 +23,14 @@ const AboutSection: React.FC  = () => {
         <div className="my-8 space-y-6 border-y border-border pb-[3.25rem] pt-8 sm:col-start-7 sm:col-end-13 sm:row-start-1 sm:my-0 sm:pt-[3.25rem] lg:col-start-8 lg:col-end-12">
           <h2 className="heading-2">About me</h2>
           <p className="mt-1">           
-            I'm a mid front-end developer, armed with a solid Computer Science background from university. With strong strong desire for innovation and technological solutons.
+            I am a mid front-end developer, armed with a solid Computer Science background from university. With strong strong desire for innovation and technological solutons.
             
             <span>
-              I started diving into the world of web development about 6+ years ago. Since then, I've been learning how to write accessible HTML code, using modern CSS practices and writing clean JavaScript and python. When writing JavaScript code, I mostly use React, Next, but I can adapt to whatever tools are required.
+              I started diving into the world of web development about 6+ years ago. Since then, I have been learning how to write accessible HTML code, using modern CSS practices and writing clean JavaScript and python. When writing JavaScript code, I mostly use React, Next, but I can adapt to whatever tools are required.
             </span>
 
             <span>
-              I'm based in Lagos, Sangotedo, but I'm available to move or work remotely. I’d love you to check out my work.
+              I am based in Lagos, Sangotedo, but available to move or work remotely. I would love you to check out my work.
             </span>
           </p>
           <Button variant="secondary" asChild>

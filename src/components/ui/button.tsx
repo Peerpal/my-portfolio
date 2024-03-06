@@ -39,6 +39,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   }
 );
 
+Button.displayName = 'Button';
+
 type ButtonIconProps = React.HtmlHTMLAttributes<HTMLSpanElement> & {
   name: IconsName;
   asChild?: boolean;
