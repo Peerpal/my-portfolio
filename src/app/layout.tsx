@@ -23,8 +23,8 @@ const serif = FontSerif({
 });
 
 export const metadata: Metadata = {
-  title: "Promise Developer",
-  description: "Experienced mid-level web developer with a passion for crafting dynamic digital experiences. Proficient in modern technologies including React, Next.js, and Python. Skilled in writing clean, accessible code and adept at adapting to project requirements. Based in Lagos, Sangotedo, with a willingness to relocate or work remotely. Explore my portfolio to witness expertise in action.",
+  title: "meka Developer",
+  description: "Experienced mid-level web developer with a passion for crafting dynamic digital experiences. Proficient in modern technologies including React, Next.js, and Python. Skilled in writing clean, accessible code and adept at adapting to project requirements. Explore my portfolio to witness expertise in action.",
 };
 
 export default function RootLayout({
