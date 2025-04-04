@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import profileImage from '../../../images/homepage/IMG_2038.jpg';
+import profileImage from '../../../images/image.PNG';
 
 import { shimmer, toBase64 } from '@/lib/utils';
 
@@ -22,16 +22,12 @@ const AboutSection: React.FC  = () => {
         </div>
         <div className="my-8 space-y-6 border-y border-border pb-[3.25rem] pt-8 sm:col-start-7 sm:col-end-13 sm:row-start-1 sm:my-0 sm:pt-[3.25rem] lg:col-start-8 lg:col-end-12">
           <h2 className="heading-2">About me</h2>
-          <p className="mt-1">           
-            I am a mid front-end developer, armed with a solid Computer Science background from university. With strong strong desire for innovation and technological solutons.
-            
-            <span>
-              I started diving into the world of web development about 6+ years ago. Since then, I have been learning how to write accessible HTML code, using modern CSS practices and writing clean JavaScript and python. When writing JavaScript code, I mostly use React, Next, but I can adapt to whatever tools are required.
-            </span>
+          <p className="mt-1">
+            I’m a mid-level Full-Stack Web Developer with a solid background in Computer Science and a passion for building innovative, scalable digital solutions.
 
-            <span>
-              I am based in Lagos, Sangotedo, but available to move or work remotely. I would love you to check out my work.
-            </span>
+With over 6 years of experience, I’ve developed full-stack applications using a wide range of technologies. On the frontend, I write clean, accessible HTML, modern CSS, and efficient JavaScript—frequently using frameworks like React and Next.js. On the backend, I’ve worked extensively with Node.js, Python, PHP, and Golang to build robust APIs and reliable server-side systems.
+
+I’m adaptable, always eager to learn, and focused on delivering maintainable, high-quality code across the stack. I’d love for you to explore some of my recent work and see how I can add value to your team.
           </p>
           <Button variant="secondary" asChild>
             <Link href="/portfolio">Go to portfolio</Link>
