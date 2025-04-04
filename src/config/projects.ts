@@ -93,7 +93,7 @@ export const ted: ProjectType = {
     'Ted is a digital platform designed to simplify and streamline access to student loans. I contributed as a full-stack developer, working on both the frontend and backend systems. My role involved building user-friendly interfaces, integrating secure payment and loan management APIs, and ensuring the platform’s performance, scalability, and responsiveness. ',
   tags: ['Golang', 'React', 'Next', 'JS', 'Docker', 'AWS'],
   link: '/portfolio/ted',
-  slug: "https://www.tedd.ng/",
+  slug: "https://www.ted.ng/",
   coverImage: insureCover,
   staticImages: {
     hero: insureHero,
