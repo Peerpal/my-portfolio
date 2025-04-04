@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import profileImage from '../../../images/image.png';
+import profileImage from '../../../images/homepage/image.png';
 
 import { shimmer, toBase64 } from '@/lib/utils';
 
