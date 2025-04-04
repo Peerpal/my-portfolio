@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import profileImage from '../../../images/image.png';
 
 import { shimmer, toBase64 } from '@/lib/utils';
 
@@ -12,7 +11,7 @@ const AboutSection: React.FC  = () => {
       <div className="main-container main-grid">
         <div className="relative h-[21.625rem] w-full sm:col-start-1 sm:col-end-6 sm:row-start-1 sm:h-full lg:col-end-7">
           <Image
-            src={profileImage}
+            src={'/image/image.png'}
             alt="Alex Spencer"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 60vw, (max-width: 1200px) 50vw"
