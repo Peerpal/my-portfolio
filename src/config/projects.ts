@@ -121,8 +121,8 @@ export const tinapay: ProjectType = {
       PreviewH,
     ],
   },
-  background:
-    "Ted helps students easily apply for loans, track repayments, and manage their financial journey with transparency and ease.",
+  background: "Tinapay.co, mission is to provide next-level solutions for digital payments, offering unparalleled value for users crypto assets. As an outsourced engineer on this project, I was an integral part of the frontend team, contributing to the development of key components using technologies such as Next.js, React.js, Redux, and the Context API for state management. One of the primary reasons for choosing Next.js for the landing page was its exceptional SEO support, which allowed us to optimize the platform for search engines effectively. By leveraging Next.js, we ensured that the Tinapay.co landing page ranked well in search engine results, driving organic traffic and enhancing the platform's visibility in a competitive fintech market. In addition to the landing page, I also played a significant role in building the admin platform using React.js. This platform provided administrators with the tools they needed to manage and oversee various aspects of the Tinapay.co ecosystem, ensuring smooth operations and efficient management of resources. Thanks to the robust SEO support provided by Next.js and the user-friendly interface of the admin platform built with React.js, Tinapay.co has experienced remarkable success, attracting over  monthly visitors despite operating in a saturated fintech market. Our dedication to delivering exceptional digital payment solutions has positioned Tinapay.co as a leader in the industry, offering unparalleled value and convenience to our users."
+
 };
 
 export const Clisha: ProjectType = {
