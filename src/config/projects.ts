@@ -96,7 +96,7 @@ export const ted: ProjectType = {
   slug: "https://www.ted.ng/",
   coverImage: insureCover,
   staticImages: {
-    hero: insureHero,
+    hero: insureCover,
     previews: [
       insureCover,
       // PreviewF,
