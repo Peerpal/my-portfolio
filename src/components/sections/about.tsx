@@ -13,7 +13,7 @@ const AboutSection: React.FC  = () => {
         <div className="relative h-[21.625rem] w-full sm:col-start-1 sm:col-end-6 sm:row-start-1 sm:h-full lg:col-end-7">
           <Image
             src={profileImage}
-            alt="Alex Spencer"
+            alt="Emeka Mamah"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 768px) 60vw, (max-width: 1200px) 50vw"
             placeholder={`data:image/svg+xml;base64,${toBase64(shimmer(540, 600))}`}
@@ -27,7 +27,7 @@ const AboutSection: React.FC  = () => {
 
 With over 6 years of experience, I’ve developed full-stack applications using a wide range of technologies. On the frontend, I write clean, accessible HTML, modern CSS, and efficient JavaScript—frequently using frameworks like React and Next.js. On the backend, I’ve worked extensively with Node.js, Python, PHP, and Golang to build robust APIs and reliable server-side systems.
 
-I’m adaptable, always eager to learn, and focused on delivering maintainable, high-quality code across the stack. I’d love for you to explore some of my recent work and see how I can add value to your team.
+I focus on creating seamless digital experiences with clean, efficient code. Whether it’s crafting responsive frontends or developing powerful backend systems, I enjoy solving problems and bringing ideas to life through technology.
           </p>
           <Button variant="secondary" asChild>
             <Link href="/portfolio">Go to portfolio</Link>
