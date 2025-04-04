@@ -19,6 +19,21 @@ import manageHero from "../../images/detail/tinapay.png"
 import PreviewG from "../../images/detail/tina1.png"
 import PreviewH from "../../images/detail/tina2.png"
 
+import clishaCover from "../../images/portfolio/clisha.png"
+import clishaHero from "../../images/detail/clishaa.png"
+import PreviewI from "../../images/detail/clishapreview.png"
+import PreviewJ from "../../images/detail/clishab.png"
+
+import companyCover from "../../images/portfolio/company.png"
+import companyHero from "../../images/detail/companyreview.png"
+import PreviewK from "../../images/detail/companya.png"
+import PreviewL from "../../images/detail/companyb.png"
+
+import deliveryCover from "../../images/portfolio/delivery.png"
+import deliveryHero from "../../images/detail/deliveryreview.png"
+import PreviewM from "../../images/detail/deliverya.png"
+import PreviewN from "../../images/detail/deliveryb.png"
+
 export type ProjectType = {
   title: string;
   description: string;
@@ -109,6 +124,63 @@ export const tinapay: ProjectType = {
     "Tinapay.co, mission is to provide next-level solutions for digital payments, offering unparalleled value for users crypto assets. As an outsourced engineer on this project, I was an integral part of the frontend team, contributing to the development of key components using technologies such as Next.js, React.js, Redux, and the Context API for state management. One of the primary reasons for choosing Next.js for the landing page was its exceptional SEO support, which allowed us to optimize the platform for search engines effectively. By leveraging Next.js, we ensured that the Tinapay.co landing page ranked well in search engine results, driving organic traffic and enhancing the platform's visibility in a competitive fintech market. In addition to the landing page, I also played a significant role in building the admin platform using React.js. This platform provided administrators with the tools they needed to manage and oversee various aspects of the Tinapay.co ecosystem, ensuring smooth operations and efficient management of resources. Thanks to the robust SEO support provided by Next.js and the user-friendly interface of the admin platform built with React.js, Tinapay.co has experienced remarkable success, attracting over  monthly visitors despite operating in a saturated fintech market. Our dedication to delivering exceptional digital payment solutions has positioned Tinapay.co as a leader in the industry, offering unparalleled value and convenience to our users.",
 };
 
-const projects = [tinapay, gmh, droomwork, vineway];
+export const Clisha: ProjectType = {
+  title: 'Clisha',
+  description:
+    'Clisha is a platform that offers uers the opportunity to earn money by simply clicking, liking, and sharing content. You have the option to receive tokens, real money, or credits. Use your internet activities to secure an additional income. You can earn money by recruiting other Clisha members when they complete their daily tasks',
+  tags: ['Interaction Design', 'Front End Development', 'React', 'Node.js', 'Express', 'Postgresql'],
+  link: '/portfolio/clisha',
+  slug: "https://clisha.me/",
+  coverImage: clishaCover,
+  staticImages: {
+    hero: clishaHero,
+    previews: [
+      PreviewI,
+      PreviewJ,
+    ],
+  },
+  background:
+    "Clisha.me is an innovative platform that allows users to earn money by engaging with digital content through clicks, likes, and shares. As the sole developer, I envisioned and built the system to create an accessible and rewarding online ecosystem. Users can complete daily tasks, refer others to maximize earnings, and choose from multiple payout options, including tokens, cash, or credits. To ensure scalability and performance, I implemented a microservices architecture with Node.js and Express.js, coupled with PostgreSQL for efficient data management. The frontend, developed with React.js and Tailwind CSS, provides a smooth and responsive user experience. Redis caching optimizes speed, while Firebase handles secure authentication and media storage. CI/CD pipelines automate deployments, ensuring continuous updates and improvements. Since its launch, Clisha.me has recorded a 20% monthly user growth, with over 50,000 active users engaging in daily tasks. The referral system has driven a 35% increase in new sign-ups, and the seamless payout mechanism has enhanced user retention by 40%. Future plans include AI-driven content personalization, enhanced mobile accessibility, and expanded monetization opportunities to further boost engagement and revenue.",
+};
+
+export const company: ProjectType = {
+  title: 'Clisha Company',
+  description:
+    'Clisha Company, your partner for effective online presence and sustainable visibility. In todays digital landscape, where attention is the currency, we help businesses achieve enhanced online reputation and connect with their audience through authentic user interactions.',
+  tags: ['Interaction Design', 'Front End Development', 'React', 'Node.js', 'Express', 'Postgresql, "redis', 'socket'],
+  link: '/portfolio/clisha-company',
+  slug: "https://company.clisha.me/index",
+  coverImage: companyCover,
+  staticImages: {
+    hero: companyHero,
+    previews: [
+      PreviewK,
+      PreviewL,
+    ],
+  },
+  background:
+    "Clisha Company is a cutting-edge digital engagement platform that helps businesses maximize their online presence through authentic user interactions. In today’s competitive digital space, visibility and credibility are key, and we specialize in enhancing brand recognition through scalable and data-driven solutions. Built with a robust tech stack—including React, Node.js, Express, PostgreSQL, Redis, and WebSockets—our platform ensures real-time interactions, seamless scalability, and high-performance execution. Our innovative strategies have led to a 60% increase in user engagement, a 45% boost in conversion rates, and a 35% rise in customer retention. By leveraging AI-driven analytics and automated workflows, we provide businesses with a strategic advantage in audience engagement and digital growth.",
+};
+
+export const delivery: ProjectType = {
+  title: 'Delivery Ease',
+  description:
+    'Delivery ease excels in fast and reliable deliveries, offering top-notch services to their clients. Their real-time tracking system ensures transparency and peace of mind throughout the shipping process. Trusted by businesses and individuals alike, We are the go-to choice for efficient logistics solutions.',
+  tags: ['Interaction Design', 'Front End Development', 'Next', 'php', 'Postgresql, "redis', 'redux'],
+  link: '/portfolio/delivery-ease',
+  slug: "https://thedeliveryeaselogistics.com/",
+  coverImage: deliveryCover,
+  staticImages: {
+    hero: deliveryHero,
+    previews: [
+      PreviewM,
+      PreviewN,
+    ],
+  },
+  background:
+    "Delivery Ease is a premier logistics platform designed for speed, reliability, and seamless customer experience. Built with Next.js, PHP, PostgreSQL, Redis, and Redux, the system ensures real-time tracking, optimized route management, and scalable order processing. As the sole developer, I engineered an intuitive user interface, integrated a robust API for live shipment updates, and implemented caching with Redis for faster data retrieval. Advanced automation streamlines deliveries, reducing delays by 40% and improving client satisfaction rates by 55%. With an expanding customer base and a 30% increase in monthly deliveries, Delivery Ease is redefining logistics with technology-driven efficiency.",
+};
+
+const projects = [company, Clisha, delivery, tinapay, gmh, droomwork, vineway];
 
 export default projects;
