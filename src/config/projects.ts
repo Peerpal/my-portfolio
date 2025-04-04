@@ -50,12 +50,12 @@ export type ProjectType = {
 };
 
 export const asusu: ProjectType = {
-  title: 'Asusu Corporative',
+  title: 'Asusu',
   description:
     'Asusu Cooperative is a platform built to digitize the operations of traditional cooperatives, making savings, contributions, and loan management seamless for members. As a full-stack developer on the project, I worked on building core features like member onboarding, contribution tracking, loan requests, and automated reporting.',
   tags: ['React', 'Redux', 'Rtk Query', 'Tailwind Css', 'JS'],
   link: '/portfolio/asusu',
-  slug: '/portfolio/asusu',
+  slug: 'Asusu',
   coverImage: ProfileImg,
   staticImages: {
     hero: ProfileImg,
@@ -93,7 +93,7 @@ export const ted: ProjectType = {
     'Ted is a digital platform designed to simplify and streamline access to student loans. I contributed as a full-stack developer, working on both the frontend and backend systems. My role involved building user-friendly interfaces, integrating secure payment and loan management APIs, and ensuring the platform’s performance, scalability, and responsiveness. ',
   tags: ['Golang', 'React', 'Next', 'JS', 'Docker', 'AWS'],
   link: '/portfolio/ted',
-  slug: "https://www.ted.ng/",
+  slug: "Ted",
   coverImage: insureCover,
   staticImages: {
     hero: insureCover,
@@ -112,7 +112,7 @@ export const tinapay: ProjectType = {
     'I was a lead engineer for this project. Where i was part of the frontend team. I worked with Next.js, React.js, Redux, Context Api(state management). I built the landing page with NEXT because of its SEO support, the admin platform with React.js. With the seo support the platform has over 3k+ monthly visitors in a saturated fintech market.',
   tags: ['Interaction Design', 'Front End Development', 'HTML', 'CSS', 'JS'],
   link: '/portfolio/tinapay',
-  slug: "https://tinapay.co/",
+  slug: "Tinapay",
   coverImage: manageCover,
   staticImages: {
     hero: manageHero,
@@ -131,7 +131,7 @@ export const Clisha: ProjectType = {
     'Clisha is a platform that offers uers the opportunity to earn money by simply clicking, liking, and sharing content. You have the option to receive tokens, real money, or credits. Use your internet activities to secure an additional income. You can earn money by recruiting other Clisha members when they complete their daily tasks',
   tags: ['Interaction Design', 'Front End Development', 'React', 'Node.js', 'Express', 'Postgresql'],
   link: '/portfolio/clisha',
-  slug: "https://clisha.me/",
+  slug: "Clisha",
   coverImage: clishaCover,
   staticImages: {
     hero: clishaHero,
@@ -145,12 +145,12 @@ export const Clisha: ProjectType = {
 };
 
 export const company: ProjectType = {
-  title: 'Clisha Company',
+  title: 'Company',
   description:
     'Clisha Company, your partner for effective online presence and sustainable visibility. In todays digital landscape, where attention is the currency, we help businesses achieve enhanced online reputation and connect with their audience through authentic user interactions.',
   tags: ['Interaction Design', 'Front End Development', 'React', 'Node.js', 'Express', 'Postgresql, "redis', 'socket'],
-  link: '/portfolio/clishacompany',
-  slug: "https://company.clisha.me/index",
+  link: '/portfolio/company',
+  slug: "Company",
   coverImage: companyCover,
   staticImages: {
     hero: companyHero,
