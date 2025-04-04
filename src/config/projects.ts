@@ -149,7 +149,7 @@ export const company: ProjectType = {
   description:
     'Clisha Company, your partner for effective online presence and sustainable visibility. In todays digital landscape, where attention is the currency, we help businesses achieve enhanced online reputation and connect with their audience through authentic user interactions.',
   tags: ['Interaction Design', 'Front End Development', 'React', 'Node.js', 'Express', 'Postgresql, "redis', 'socket'],
-  link: '/portfolio/clisha-company',
+  link: '/portfolio/clishacompany',
   slug: "https://company.clisha.me/index",
   coverImage: companyCover,
   staticImages: {
