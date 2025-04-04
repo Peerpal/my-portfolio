@@ -16,7 +16,7 @@ export const navLinks: NavLinkType[] = [
 ];
 
 export const socialLinks: SocialLinkType[] = [
-  { name: 'Github', href: 'https://github.com/Nwachukwupgate', icon: 'github' },
-  { name: 'Twitter', href: 'https://twitter.com/Nwachuk07087866', icon: 'twitter' },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/nwachukwu-promise-6b3414190/', icon: 'linkedin' },
+  { name: 'Github', href: 'https://github.com/Peerpal', icon: 'github' },
+  // { name: 'Twitter', href: 'https://twitter.com/Nwachuk07087866', icon: 'twitter' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/emeka-mamah-7770a613a/', icon: 'linkedin' },
 ];

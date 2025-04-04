@@ -12,7 +12,7 @@ const ContactForm = () => {
   }
 
   return (
-    
+
       <form
         className="flex flex-col gap-6 lg:col-span-7 lg:col-start-6"
         onSubmit={handleSubmit}
@@ -24,14 +24,14 @@ const ContactForm = () => {
           <input
             type="name"
             name="name"
-            placeholder="Nwachukwu Promise"
+            placeholder="Emeka Mamah"
             id="name"
             className={twMerge(
               'bg-input px-4 py-2 text-sm leading-8 text-foreground outline-none outline-1 outline-offset-0 placeholder:text-foreground/40 focus-visible:outline-primary disabled:cursor-not-allowed disabled:text-foreground/60 aria-[invalid=true]:outline-destructive aria-[invalid=true]:focus-visible:outline-destructive',
             )}
           />
-          <ValidationError 
-            prefix="Name" 
+          <ValidationError
+            prefix="Name"
             field="name"
             errors={state.errors}
           />
@@ -50,8 +50,8 @@ const ContactForm = () => {
               'bg-input px-4 py-2 text-sm leading-8 text-foreground outline-none outline-1 outline-offset-0 placeholder:text-foreground/40 focus-visible:outline-primary disabled:cursor-not-allowed disabled:text-foreground/60 aria-[invalid=true]:outline-destructive aria-[invalid=true]:focus-visible:outline-destructive',
             )}
           />
-          <ValidationError 
-          prefix="Email" 
+          <ValidationError
+          prefix="Email"
           field="email"
           errors={state.errors}
         />
@@ -68,8 +68,8 @@ const ContactForm = () => {
               'resize-y bg-input px-4 py-2 text-sm leading-8 text-foreground outline-none outline-1 outline-offset-0 placeholder:text-foreground/40 focus-visible:outline-primary disabled:cursor-not-allowed disabled:text-foreground/60 aria-[invalid=true]:outline-destructive aria-[invalid=true]:focus-visible:outline-destructive',
             )}
           />
-          <ValidationError 
-            prefix="Message" 
+          <ValidationError
+            prefix="Message"
             field="message"
             errors={state.errors}
           />
@@ -79,7 +79,7 @@ const ContactForm = () => {
           Send message
         </Button>
       </form>
-   
+
   );
 };
 
